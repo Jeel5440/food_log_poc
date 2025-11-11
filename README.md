@@ -13,19 +13,24 @@ Public GitHub repo: https://github.com/Jeel5440/food_log_poc.git
 
 ## Quick Start (Professor Demo)
 1. **Clone or download**
+
    ```powershell
-git clone https://github.com/Jeel5440/food_log_poc.git
-cd food_log_poc
+   git clone https://github.com/Jeel5440/food_log_poc.git
+   cd food_log_poc
    ```
+
    Or download ZIP from the repo page, unzip, then `cd` into the folder.
 2. **Install dependencies**
+
    ```powershell
-npm install
+   npm install
    ```
 3. **Run the dev server**
+
    ```powershell
-npm run dev
+   npm run dev
    ```
+
    The terminal prints a URL (e.g. `http://localhost:5173`).
 4. **Preview in mobile view**
    - Open the URL in Chrome/Edge
@@ -49,13 +54,13 @@ Outputs the static site to `dist/`.
    ```
 2. Build web assets and sync:
    ```powershell
-npm run build
-npx cap add android      # first time only
-npx cap sync android
+   npm run build
+   npx cap add android      # first time only
+   npx cap sync android
    ```
 3. Open Android Studio and build an APK:
    ```powershell
-npx cap open android
+   npx cap open android
    ```
    In Android Studio: **Build > Build Bundle(s)/APK(s) > Build APK(s)**.
 4. Launch on an emulator (Device Manager ▶) or share the generated APK (`android/app/build/outputs/apk/`).
